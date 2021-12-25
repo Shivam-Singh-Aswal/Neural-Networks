@@ -1,0 +1,1 @@
+This is a package of various neural network frameworks and some of the projects as their application.
