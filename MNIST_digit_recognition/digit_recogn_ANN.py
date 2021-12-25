@@ -39,7 +39,7 @@ def testing_function(output, ans):
 def main():
     abs_path_mnistset = "D:/Field\Machine Learning/Digit Recognition/Neural_Networks_and_projects/MNIST_digit_recognition/MNIST_dataset"
     #Loading Training data
-    start, end = 0, 10000
+    start, end = 0, 30000
     imagefile = abs_path_mnistset + "/train-images.idx3-ubyte"
     labelfile = abs_path_mnistset + "/train-labels.idx1-ubyte"
     train_data = load(imagefile, labelfile, start, end)
@@ -56,7 +56,7 @@ def main():
     batch_size = int(input("Mini batch size: "))
     lmbda = float(input("Lambda: "))
 
-    divvu = ANN([784, 30, 30, 10], choice_c="cross-entropy")  #The network
+    divvu = ANN([784, 30, 10], choice_c="cross-entropy")  #The network
 
     #Train the network
     divvu.main(train_data, rate, iters, batch_size, test_data= testing_data, 
