@@ -37,7 +37,7 @@ def testing_function(output, ans):
 
 
 def main():
-    abs_path_mnistset = "D:/Field\Machine Learning/Digit Recognition/Neural_Networks_and_projects/MNIST_dataset"
+    abs_path_mnistset = "D:/Field\Machine Learning/Digit Recognition/Neural_Networks_and_projects/MNIST_digit_recognition/MNIST_dataset"
     #Loading Training data
     start, end = 0, 10000
     imagefile = abs_path_mnistset + "/train-images.idx3-ubyte"
