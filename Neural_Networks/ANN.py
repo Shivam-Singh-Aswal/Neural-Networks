@@ -2,8 +2,8 @@ from os import error
 import numpy as np
  
 
-#These the the choices for cost functions
-#The first part of cost class name represents the activation fn for output layer
+#These are the choices for cost functions
+#The first part of class name represents the activation fn for output layer
 #and the second part is actually the cost function that is used.
 
 class sigmoid_quadraticCost(object):
