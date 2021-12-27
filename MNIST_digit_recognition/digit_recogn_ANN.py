@@ -4,7 +4,7 @@ import sys
 
 #Importing the Artificial Neural Network
 sys.path.insert(0, "./")
-from Neural_Networks import ANN
+from Neural_Networks.ANN import *
 
 
 #Loading data from the files
