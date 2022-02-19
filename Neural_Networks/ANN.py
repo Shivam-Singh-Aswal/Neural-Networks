@@ -1,4 +1,3 @@
-from os import error
 import numpy as np
  
 
